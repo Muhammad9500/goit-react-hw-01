@@ -1,0 +1,35 @@
+
+.liFriends{
+    list-style-type: none;
+    width:310px;
+    height:100px;
+    margin: 0 auto;
+}
+.imgFriends{
+    width: 60px;
+    height: 60px;
+    display: inline;
+
+}
+.divFriends{
+    background-color: white;
+    border-radius: 10px;
+    width: 270px;
+    border: 4px solid black;
+    
+    
+}
+.ulFriends{
+    padding:0;
+     
+}
+.online{
+    color: rgb(8, 138, 8);
+    display: inline;
+    font-weight: bold;
+}
+.offline{
+    color: rgb(131, 13, 13);
+    display: inline;
+    font-weight: bold;
+}
