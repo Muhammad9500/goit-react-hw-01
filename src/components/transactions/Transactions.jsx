@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import {tableTransact, headTransact, trTransact, tbodyTransact, trBodyTransact, thTran, tbTran} from './transactions.module.css';
 const Transactions = (props) => {
     return (
@@ -24,5 +25,7 @@ const Transactions = (props) => {
 
     );
 }
-
+Transactions.propTypes = {
+    items: PropTypes.array.isRequired
+}
 export default Transactions;

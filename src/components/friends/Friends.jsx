@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 import {imgFriends, liFriends, divFriends, online, offline, containerFriends} from './friends.module.css';
 const Friends = (props) => {
     
@@ -18,5 +19,9 @@ const Friends = (props) => {
         </div>
     );
 }
-
+Friends.propTypes = {
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    isOnline: PropTypes.string.isRequired
+}
 export default Friends;
